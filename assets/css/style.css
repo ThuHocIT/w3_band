@@ -34,6 +34,7 @@ từ tổng quan đến chi tiết
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 #nav {
@@ -116,12 +117,41 @@ từ tổng quan đến chi tiết
     line-height: 46px;
 }
 #slider{
-    min-height: 500px;
+    position: relative;
+    /* min-height: 500px;
     background-color: rgb(255, 255, 255);
+     */
     margin-top: 46px;
+    padding-top: 50%;
+    /* khi đaqăt là 50% thì chiều cao luôn bằng 50% của chiều rộng, chiều cao đã được tạo ra bởi padding */
+    background-color: #b36c6c;
+    background: url('/assets/img/slider/slider1.jpg') top center / cover no-repeat ;
+    /* viết tắt, lần lượt có bgimage, bg position, bg size và bgrepeat */
+}
+#slider .text-content {
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    
+    /* left: 50%;
+    transform: translateX(-50%); */
+    width: 100%;
+    text-align: center;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#slider .text-description {
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 #content{
+
+    height: 500px;
   }
 
 #footer{
