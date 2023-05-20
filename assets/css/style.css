@@ -21,6 +21,9 @@ từ tổng quan đến chi tiết
 4. kiểu dáng (kiểu chữ, hình dáng)
  */
 
+ .clear {
+    clear: both;
+ }
 #main{
 
 }
@@ -183,7 +186,26 @@ từ tổng quan đến chi tiết
     line-height: 1.4;
 }
 
+#content .members-list {
+    margin-top: 48px;
+    overflow: hidden;
+}
+#content .member-item {
+    float: left;
+    width: 33.33333%;
+    text-align: center;
 
+}
+
+#content .member-name {
+    font-size: 15px;
+} 
+
+#content .member-img{
+    margin-top: 15px;
+    width: 154px;
+    border-radius: 4px;
+}
 #footer{
 
 }
