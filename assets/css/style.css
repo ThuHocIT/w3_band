@@ -24,6 +24,10 @@ từ tổng quan đến chi tiết
  .clear {
     clear: both;
  }
+
+ .text-white {
+    color: #ccc !important;
+ }
 #main{
 
 }
@@ -206,6 +210,45 @@ từ tổng quan đến chi tiết
     width: 154px;
     border-radius: 4px;
 }
+
+/* tour section */
+.tour-section {
+    background-color: #000;
+}
+
+.ticker-list {
+    background-color: #fff;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.ticker-list li {
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+    color: #757575;
+}
+
+.ticker-list .sold-out {
+    background-color: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 3px 4px;
+}
+
+.ticker-list .quantity {
+    float: right; 
+    /* the inline khi cos float se dc coi nhu the block */
+    width: 24px;
+    height: 24px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -2px;
+}
+
 #footer{
 
 }
