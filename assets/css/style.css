@@ -249,6 +249,61 @@ từ tổng quan đến chi tiết
     margin-top: -2px;
 }
 
+.places-list {
+    padding-bottom: 48px;
+    margin: 32px -8px 0;
+}
+
+.places-item {
+    float: left;
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+.place-img {
+    width: 100%;
+    display: block;
+}
+
+.place-img:hover {
+    opacity: 0.6;
+}
+
+.place-body {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+
+}
+
+.place-heading {
+    font-size: 15px;
+    font-weight: 600px;
+}
+
+.place-time {
+    margin-top: 15px;
+    color: #757575;
+}
+
+.place-desc {
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.place-buy-btn {
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+}   
+
+.place-buy-btn:hover {
+    color: #000;
+    background-color: #ccc;
+}
 #footer{
 
 }
